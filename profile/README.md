@@ -1,4 +1,5 @@
-![AWSCloudArchitect](https://github.com/SeSAC-AWS-Final/.github/assets/115003898/6c3bc74b-c574-4b87-9999-4a6860ca1a28)
+![AWSCloudArchitect](https://github.com/SeSAC-AWS-Final/.github/assets/115003898/fb2b4962-b49f-4b69-b9b0-3aed1fd395b8)
+
 # AWS Korea 와 함께하는 클라우드 아키텍트 교육
 > **교육 기간** : 2023. 11. ~ 2024. 03.
 
