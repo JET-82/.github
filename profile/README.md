@@ -1,19 +1,21 @@
 # JET-82
+<img src="https://github.com/JET-82/.github/assets/103179265/b94a2fd2-b019-45c7-a2b5-3c66465a0a87" width="200" height="200">
 
-## K-Food 스마트 오더 서비스
-[사진]
+## K-Food 픽업 오더 플랫폼 서비스
 
 ### 프로젝트 소개 🐥
-    - 세계로 진출하는 기업을 위한 안정적인 k-food 주문 플랫폼. ~~~ 스마트 오더 서비스
-    - 세계 어느 곳에서도 안정적인 서비스를 제공합니다. 전 세계 리전을 활용한 서비스로 을 책임집니다.
-    - 어디서든지 당신의 사업이 시작됩니다.
-    - 빠른 해외 진출을 원한다면 JET-82
+  - 세계로 진출하는 기업을 위한 k-food 픽업 오더 플랫폼.
 
 ### 팀 소개 🙌
-
+  - 전 세계 리전을 활용한 서비스로 어디서든 당신의 사업이 시작될 수 있도록 Infra부터 application 까지 책임집니다.
+  - agile 한 방식으로 time to market 전략에 최적화된 SaaS 솔루션을 제공합니다.
+  - 클라우드를 활용하여 인프라를 효율적으로 관리합니다.
+  - 개발부터 운영까지 devops 조직을 기반으로 협업하는 팀입니다.
+  - 빠른 해외 진출을 원한다면 JET-82
+    
 |강석구|김경빈|신용호|안예은|최정은|
 |:--:|:--:|:--:|:--:|:--:|
-|<img src="https://github.com/seokgoooo.png" width="100" height="100">|<img src="https://github.com/blight-bin.png" width="100" height="100">|<img src="https://github.com/gdtknight.png" width="100" height="100">|<img src="https://github.com/yeeSilver.png" width="100" height="100">|<img src="https://github.com/jungeun5-choi.png" width="100" height="100">|
+|<img align='center' src="https://github.com/seokgoooo.png" width="117" height="156">|<img align='center' src="https://github.com/blight-bin.png" width="117" height="156">|<img align='center' src="https://github.com/gdtknight.png" width="117" height="156">|<img align='center' src="https://github.com/yeeSilver.png" width="117" height="156">|<img align='center' src="https://github.com/jungeun5-choi.png" width="117" height="156">|
 |[@seokgoooo](https://github.com/seokgoooo)|[@blight-bin](https://github.com/blight-bin)|[@gdtknight](https://github.com/gdtknight)|[@yeeSilver](https://github.com/yeeSilver)|[@jungeun5-choi](https://github.com/jungeun5-choi)|
 
 ### R&R (Role and Responsibility)
@@ -27,16 +29,6 @@
         - Load Balancer Controller
         - EBS CSI Driver Controller
         - External DNS Controller
-         
-    - CD : 안예은(정) / 김경빈(부)
-    - 3rd Party
-      - ArgoCD
-        - Multi Cluster Deployment
-        - Deployment Strategy : Rolling Update
-          - package manager : Helm
-          - Deployment code : 
-            - manifest : YAML
-            - Deployment unit : Application(CRD)
                
 #### Development
     - Frontend : 안예은(정) / 최정은(부)
@@ -58,6 +50,17 @@
           - Image Build
           - Image Scanning
           - Image Registry
+
+#### CD
+    - CD : 안예은(정) / 김경빈(부)
+    - 3rd Party
+      - ArgoCD
+        - Multi Cluster Deployment
+        - Deployment Strategy : Rolling Update
+          - package manager : Helm
+          - Deployment code : 
+            - manifest : YAML
+            - Deployment unit : Application(CRD)
          
 #### Monitoring
     - 최정은(정) / 안예은(부)
